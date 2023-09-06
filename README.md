@@ -1,1 +1,2 @@
 # watsonx-workshop
+Integrating WA
