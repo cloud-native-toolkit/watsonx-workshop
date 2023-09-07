@@ -1,2 +1,2 @@
 # watsonx-workshop
-Integrating WA
+Integrating WA + WD + WX
