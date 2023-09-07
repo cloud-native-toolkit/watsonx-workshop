@@ -10,11 +10,16 @@ Then search in the resource directory for Watson Assistant and then select it
 Select the instance location that suits you (Dallas by default) (1.). Then pricing the plan that matches your expectations - 
 Lite will be sufficient for this demo. (2.) Accept the license terms. (3.) And finally, click the "Create" button. (4.)
 
+![image](https://github.com/cloud-native-toolkit/watsonx-workshop/assets/73220577/05bc4d10-8ab2-4d3c-937a-0f26033b478b)
+
 **2. Accessing Watson Assistant instance**
 
 Once you have a Watson Assistant instance, it will be available at https://cloud.ibm.com/resources under the AI / Machine Learning category. Click on it to proceed further.
 
 Once in the instance, click on the "Launch Watson Assistant" button to start working with it.
+
+![image](https://github.com/cloud-native-toolkit/watsonx-workshop/assets/73220577/40154975-205c-46d8-9d8c-cbac29453f2e)
+
 
 **3. Creating new assistant**
 Once in the Watson Assistant instance, you need to start by creating a new assistant. You can do this by clicking "Create New+" in the menu at the top, or if you are in a new instance, create your first assistant.
