@@ -32,9 +32,8 @@ Inside "Actions" look for the global setting options and then you will find uplo
 
 <img width="1423" alt="image" src="https://github.com/cloud-native-toolkit/watsonx-workshop/assets/73220577/9b52c3ee-8415-431b-bb96-17aa526b8856">
 
-<img width="1363" alt="image" src="https://github.com/cloud-native-toolkit/watsonx-workshop/assets/73220577/9ff80f10-1229-4c3a-a90d-cb660342ae89">
-
 select upload followed by importing the "TechSupportAA-action.json"
+
 <img width="1363" alt="image" src="https://github.com/cloud-native-toolkit/watsonx-workshop/assets/73220577/2a1ebcac-e7be-4d5d-b7fe-292a989f69e2">
 
 Close the global setting options, you will now be navigated to actions page which looks like below 
