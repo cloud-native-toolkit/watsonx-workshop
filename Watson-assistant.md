@@ -1,6 +1,6 @@
 **1. Creating Watson Assistant instance**
 
-Perform this step if you do not already have a Watson Assisant resource available.
+Perform this step to create an Watson Assisant instance.
 
 First, go to https://cloud.ibm.com/resources where you need to click the "Create resource" button
 Then search in the resource directory for Watson Assistant and then select it
