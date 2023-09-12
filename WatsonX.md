@@ -3,7 +3,7 @@
 First to access ibm watsonx dataplatform and use prompt labs please use the below link
 [https://dataplatform.cloud.ibm.com/wx/home?context=wx](url)
 
-**To open the Prompt Lab, from the watsonx.ai home page, choose a project, and then click Experiment with foundation models and build prompts.**
+**To open the Prompt Lab, from the watsonx.ai home page, create a project and choose a project created by you, and then click Experiment with foundation models and build prompts.**
 
 **Prompt editor**
 You type your prompt in the prompt editor which looks like below. The prompt editor has two modes: freeform and structured.
