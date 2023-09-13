@@ -23,4 +23,102 @@ When you click Generate in structured mode, the text from the fields is sent to 
 
 **Prompt engineering**
 
+**PROMT 1 Test**
+
+---------------
+
+Model: google/flan-ul2
+Parameters: {
+    "decoding_method": "greedy",
+    "repetition_penalty": 2,
+    "stop_sequences": [
+      "##"
+    ],
+    "min_new_tokens": 50,
+    "max_new_tokens": 200,
+}
+
+You are an analyst who verifies the call transcript based on a checklist provided to you and writes a short summary with important details.  Your task is to read the call transcript surrounded by triple quotes, write a short summary in complete sentence only from given transcript and also answer following questions in the checklist and write in the output summary.
+
+Checklist Questions:
+1: Did the Virtual Agent verifies customer name and email ?
+2: What was the issue customer facing ?
+3: Was the issue resolved ?
+4: What was the overall sentiment of the transcript, neutral, negative or positive ?
+5: Did customer ask to connect to a live agent ?
+
+Call Transcript:
+"""
+1) [Virtual Agent]: Thank you for your inquiry.  NetPro will automatically answer frequently asked questions! Select the inquiry menu or enter your question in a short sentence.
+ - Installation Help
+ - Troubleshooting
+ - Subscribe to Gearheads
+ - Subscribe to Pro Support
+
+2) [Customer]: I'm facing issues with internet connectivity on my modem router
+3) [Virtual Agent]: As I can understand you have an issue experiencing connectivity issues with your cable modem or modem router, correct?
+ - Yes
+ - No
+
+4) [Customer]: Yes
+5) [Virtual Agent]: Please provide your complete name
+
+6) [Customer]: John Smith
+7) [Virtual Agent]: Please share your email Id as well for verification
+
+8) [Customer]: john.smith@example.com
+9) [Virtual Agent]: Thank you for verification, I see that you do not have any devices registered with the details you provided. If you have not registered the new devices, I can help you with that. Shall we proceed with the registration?
+ - Yes
+ - No
+
+10) [Customer]: Yes
+11) [Virtual Agent]: Please follow below steps to register your product:
+Register new device
+
+12) [Customer]: I've just registered my modem CR2000
+13) [Virtual Agent]: Thank you for registering your product, now let's get the issue resolved. From your description, you need help with following query:
+
+<br />
+
+
+
+
+
+I have an issue with internet connectivity.
+ - Yes
+ - No
+
+14) [Customer]: yes
+15) [Virtual Agent]: As I can see the recent device you registered is below, correct ?
+
+<br />
+
+
+
+
+
+**CR2000**
+ - Yes
+ - No
+
+16) [Customer]: yes
+17) [Virtual Agent]: Please follow below instructions for resolving the internet connectivity issues:
+Internet connectivity issues steps
+Is the issue resolved now ?
+ - Yes
+ - No
+
+18) [Customer]: no I'm still not able to connect to internet
+19) [Virtual Agent]: I'm sorry to hear that you are still facing problems.  Would you like to connect to an Agent for helping you with the issue you are facing ?
+ - Yes
+ - No
+
+20) [Customer]: Yes
+"""
+
+Output Summary:
+
+
+
+
 
