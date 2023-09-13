@@ -118,6 +118,29 @@ Is the issue resolved now ?
 
 Output Summary:
 
+---------------------
+
+
+INSTRUCTION: 
+You will be given a list of product reviews. Your task is to generate a short summary, only from given product reviews from an ecommerce site to give feedback to another customer.
+
+EXAMPLE 1: 
+INPUT: 
+1: I am very happy with the way it cleans, and the fact that it is energy efficient.\n2: Love it! Very efficient. Best washer I’ve owned. Clothes come out almost dry.\n3: Excellent choice for us. Home depot Thanksgiving deals were fantastic to buy a washer and dryer. Device wise looks pretty efficient with water usage, which is the primary concern for us economically and environmentally speaking.
+
+OUTPUT:
+Here are some key points from the given customer experiences:\n\nThe customers like how efficiently their clothes get cleaned and comes out dry by using less electricity/water than previous models they have used in past. 
+
+TEST:
+It really performs great and it is very easy to operate.
+
+Plenty of room to wash my California King comforter. The vast range of settings are wonderful and the memory setting gives my kids the ability to use it with pushing 1 button.
+
+I love this GE Washer that I just purchased with the matching dryer. It's efficient, easy to use, and fits well.
+
+Great reliable washer for a small family and easy to use!
+
+It is quiet, easy to learn to use. strong and many washing option
 
 
 
