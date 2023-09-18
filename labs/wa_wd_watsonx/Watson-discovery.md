@@ -46,7 +46,7 @@ Give a name to your project (1.), select Project type "Document Retrieval" (2.) 
 ![image](https://media.github.ibm.com/user/269035/files/082a847e-cf7a-4499-8257-988a938f7356)
 
 
-Choose where you want to upload your data from - in this case I'm using a local file, so I choose "Upload data" (1.), and then click "Next."(2.)
+Choose where you want to upload your data from - in this case I'm using a local file (2 zip files inside datasets folder), so I choose "Upload data" (1.), and then click "Next."(2.).  Please create 2 different collections for both datasets as "Products" and "ProductReviews" collections.
 
 IMG
 
