@@ -96,12 +96,12 @@ Step 2: Login to Postman through Google Account
 4.	Sign in with your Google Account.
 5.	Create workspace
 6.	from dataset file download RetailCollection.postman_collection.json(Discovery queries) and RetailDemo.postman_environment.json (envirnoment variables)
-7. Please update environment variable for your Watson Discovery Instance.
 
 Step 3: Import Environment Variables
 1.	In Postman, click on "Environments" in the top right corner.
 2.	Click on "Import."
 3.	Choose the environment variables file you want to import (usually in JSON format).
+4.  *Note:* Please update environment variable for your Watson Discovery Instance.
 Step 4: Import Queries
 1.	In Postman, click on "Import" in the top left corner.
 2.	Choose "File" and select the JSON file containing your queries.
