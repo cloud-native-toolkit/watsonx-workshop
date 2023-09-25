@@ -2,13 +2,14 @@
 ## LABs
 
 ### Perform the labs in following order - 
-### Lab 1 - Prompt Engineering
-### Lab 2 - Retrieval Agumented Generation
-### Lab 3 - watsonx.ai and Langchain
-### Lab 4 - watsonx.ai with watsonx Assistant and watsonx Discovery
+### Lab 1 - [Prompt Engineering](https://github.com/cloud-native-toolkit/watsonx-workshop/tree/MUMBAI/labs/Lab%201%20-%20Prompt%20Engineering)
+### Lab 2 - [Retrieval Agumented Generation](https://github.com/cloud-native-toolkit/watsonx-workshop/tree/MUMBAI/labs/retrieval-agumented-generation)
+### Lab 3 - [watsonx.ai and Langchain](https://github.com/cloud-native-toolkit/watsonx-workshop/tree/MUMBAI/labs/watsonxai-and-langchain)
+### Lab 4 - [watsonx.ai with watsonx Assistant and watsonx Discovery](https://github.com/cloud-native-toolkit/watsonx-workshop/tree/MUMBAI/labs/wa_wd_watsonx)
 
 ### Prerequisites:
 
+[Laptop Environment Setup](https://github.com/cloud-native-toolkit/watsonx-workshop/tree/MUMBAI/labs/laptop-environment-setup)
 ```
 
 #FOR MAC OS
