@@ -1,5 +1,11 @@
 
-# LABs
+## LABs
+
+### Perform the labs in following order - 
+### Lab 1 - Prompt Engineering
+### Lab 2 - Retrieval Agumented Generation
+### Lab 3 - watsonx.ai and Langchain
+### Lab 4 - watsonx.ai with watsonx Assistant and watsonx Discovery
 
 ### Prerequisites:
 
@@ -49,5 +55,3 @@ pip install faiss-cpu
 
 ```
 
-# watsonx-workshop
-Integrating WA + WD + WX
