@@ -1,2 +1,5 @@
-# watsonx-workshop
-Integrating WA + WD + WX
+## watsonx.ai and watsonx.governance - training
+
+TrainingMaterial - Presentation Decks
+
+labs - Hands on labs
