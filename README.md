@@ -27,10 +27,13 @@ labs - Hands on labs
 **7: Github URL**
 - https://github.com/cloud-native-toolkit/watsonx-workshop/tree/main
 
-**8: Techzone Instance :**
+**8: Watsonx Platform Security**
+- https://www.ibm.com/docs/en/watsonx-as-a-service?topic=security-network#connections
+
+**9: Techzone Instance :**
 - https://tinyurl.com/watsonx-labs
 
-**9: Other Important Links**
+**10: Other Important Links**
     
 - [Ecosystem Engineering GSI Labs - Data & AI](https://ibm.seismic.com/Link/Content/DCM7pXFdVcbC9G7TFJJh2MPPcqgB)
 - [Retail Demo on Seismic](https://ibm.seismic.com/Link/Content/DCM7pXFdVcbC9G7TFJJh2MPPcqgB#/?anchorId=19cb8cdd-6b49-4363-9770-97a24f3ff93d)
