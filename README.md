@@ -1,3 +1,7 @@
+Watsonxai environment url - https://techzone.ibm.com/my/workshops/student/65381d845739e500178a849e
+
+
+
 ## watsonx.ai and watsonx.governance (Overview) - training
 
 TrainingMaterial - Presentation Decks
