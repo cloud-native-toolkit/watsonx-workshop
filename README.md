@@ -1,8 +1,75 @@
 Watsonxai environment url - https://techzone.ibm.com/my/workshops/student/65381d845739e500178a849e
 
+# watsonx.ai and watsonx.governance (Overview) - training
 
+### Prerequisites:
 
-## watsonx.ai and watsonx.governance (Overview) - training
+```
+
+#FOR MAC OS (Arm architecture)
+export HNSWLIB_NO_NATIVE=1
+brew install cmake libomp
+declare -x TESSDATA_PREFIX=/usr/share/tesseract-ocr/4.00/tessdata
+
+arch -x86_64 /bin/zsh or arch -x86_64 /bin/bash
+
+# For arm64 Pythons:
+~/.pyenv/versions/3.10.2/bin/python -m venv venv
+
+# For x86 Pythons:
+~/.pyenv/versions/3.10.2_x86/bin/python -m venv venv
+
+pyenv install 3.11
+pyenv global 3.11
+
+pip install --upgrade pip
+
+virtualenv venv -p python3.11
+source venv/bin/activate
+
+```
+
+### INSTALLING DEPENDENCIES
+
+```
+
+pip install pip-tools
+
+pip install --no-cache-dir -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu
+
+## Uncomment below installs only if you are running this notebook fresh
+
+pip install python-dotenv
+pip install pypdf
+pip install InstructorEmbedding
+pip install 'transformers[torch]'
+pip install sentence-transformers
+pip install cachetools
+pip install unstructured
+pip install from-root
+pip install chromadb
+pip install chroma-migrate
+pip install --upgrade ibm-watson
+
+pip install matplotlib
+pip install ibm-watson-machine-learning
+pip install PyPDF2
+pip install langchain | tail -n 1
+pip install langchain --upgrade
+pip install -U langchain-community
+
+```
+
+### USING requirements.in (OPTIONAL)
+
+  - Finally, run the following command to generate a requirements.txt file:
+  
+```
+pip-compile requirements.in
+or
+python -m piptools compile
+
+```
 
 TrainingMaterial - Presentation Decks
 
@@ -13,35 +80,10 @@ labs - Hands on labs
 **1: Multi-Task Prompt Tuning**
 - https://arxiv.org/pdf/2303.02861.pdf
 
-**2: Supported LLMs on Watsonx.ai**
-- https://www.ibm.com/docs/en/watsonx-as-a-service?topic=models-
-
-**3: Fine Tuning a Slate LLM**
+**2: Fine Tuning a Slate LLM**
 - https://medium.com/@alex.lang/fair-is-fast-and-fast-is-fair-ibm-slate-foundation-models-for-nlp-3508412a4b04
 
-**4: Good article on the True cost of Generative AI:**
+**3: Good article on the True cost of Generative AI:**
 - https://www.linkedin.com/pulse/decoding-true-cost-generative-ai-your-enterprise-maryam-ashoori-phd/
 
-**5: Lab 1 - Prompt Engineering (Sample Prompts)**
-- https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-prompt-samples.html?context=wx&audience=wdp
 
-**6: Lab 2 – Retrieval Augment Generation (RAG) for contextual and timely answers:**
-- https://github.com/cloud-native-toolkit/watsonx-workshop/tree/main/labs/Lab%202%20-%20RAG%20%2B%20Langchain
-
-**7: Github URL**
-- https://github.com/cloud-native-toolkit/watsonx-workshop/tree/main
-
-**8: Watsonx Platform Security**
-- https://www.ibm.com/docs/en/watsonx-as-a-service?topic=security-network#connections
-
-**9: Techzone Instance :**
-- https://tinyurl.com/watsonx-labs
-
-**10: Other Important Links**
-    
-- [Ecosystem Engineering GSI Labs - Data & AI](https://ibm.seismic.com/Link/Content/DCM7pXFdVcbC9G7TFJJh2MPPcqgB)
-- [Retail Demo on Seismic](https://ibm.seismic.com/Link/Content/DCM7pXFdVcbC9G7TFJJh2MPPcqgB#/?anchorId=19cb8cdd-6b49-4363-9770-97a24f3ff93d)
-- [Agent Assist Demo on Seismic](https://ibm.seismic.com/Link/Content/DCM7pXFdVcbC9G7TFJJh2MPPcqgB#/?anchorId=bd3827ea-d6dd-4bf6-9315-bb9929254c1e)
-- [Healthcare Demo on Seismic](https://ibm.seismic.com/Link/Content/DCM7pXFdVcbC9G7TFJJh2MPPcqgB#/?anchorId=efa2e7b3-f3eb-4a50-ada9-e1b92deaee17)
-- [Structured Information Extraction from Tables in PDF Documents with Pandas and IBM Watson](https://medium.com/ibm-data-ai/structured-information-extraction-from-tables-in-pdf-documents-with-pandas-and-ibm-watson-fac302fd25bd)
-  
