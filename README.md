@@ -77,13 +77,28 @@ labs - Hands on labs
 
 ### Some important Links for IBM Watsonx Platform Learning:
 
-**1: Multi-Task Prompt Tuning**
+**IBM Granite LLM**
+- https://www.ibm.com/granite
+
+**IBM watsonx Developer Hub**
+- https://www.ibm.com/watsonx/developer/get-started/quick-start
+
+**IBM watsonx.ai samples**
+- https://github.com/IBM/watsonx-ai-samples/tree/master
+
+**IBM watsonx.ai samples**
+- https://github.com/IBM/watsonx-ai-samples/tree/master
+
+**IBM Docling library**
+- https://ds4sd.github.io/docling/
+
+**Multi-Task Prompt Tuning**
 - https://arxiv.org/pdf/2303.02861.pdf
 
-**2: Fine Tuning a Slate LLM**
+**Fine Tuning a Slate LLM**
 - https://medium.com/@alex.lang/fair-is-fast-and-fast-is-fair-ibm-slate-foundation-models-for-nlp-3508412a4b04
 
-**3: Good article on the True cost of Generative AI:**
+**Good article on the True cost of Generative AI:**
 - https://www.linkedin.com/pulse/decoding-true-cost-generative-ai-your-enterprise-maryam-ashoori-phd/
 
 
